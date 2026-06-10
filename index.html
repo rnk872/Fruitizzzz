@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FruitShell</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <h1>🍊 FruitShell</h1>
+  <div>
+    <a href="#products">Products</a>
+    <a href="#customize">Customize</a>
+    <a href="#investor">Investor</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <h2>Nature's Bowl. Frozen Delight.</h2>
+  <p>Premium fruit-shell ice cream experience.</p>
+  <button onclick="scrollToSection('customize')">Build Your FruitShell</button>
+</header>
+
+<section id="products">
+  <h2>Signature Shells</h2>
+  <div class="cards">
+    <div class="card">🍊 Orange Shell</div>
+    <div class="card">🥭 Mango Shell</div>
+    <div class="card">🥥 Coconut Shell</div>
+    <div class="card">🍍 Pineapple Shell</div>
+  </div>
+</section>
+
+<section id="customize">
+  <h2>Customize Your Dessert</h2>
+  <label>Nature Index: <span id="natureValue">50</span>%</label>
+  <input type="range" min="0" max="100" value="50" id="nature">
+  <div class="preview" id="preview">
+    Fruit Richness: 50%<br>
+    Creaminess: 50%
+  </div>
+</section>
+
+<section id="investor">
+  <h2>Investor Vision</h2>
+  <p>Unique edible fruit shells, premium positioning, strong social-media appeal, scalable kiosk model.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact & QR</h2>
+  <p>FruitShell Experience Center<br>
+  22 Innovation Avenue, Pune, Maharashtra</p>
+  <div class="qr">QR PLACEHOLDER</div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
